@@ -1,0 +1,39 @@
+body {
+    background: #ccc;
+}
+div {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    position: absolute
+}
+main {
+    width: 800px;
+    height: 600px;
+    background: lightslategray;
+    margin: 0 auto;
+    position: absolute;
+}
+#p1 {
+top: 0;
+left: 0;
+z-index: 4;
+}
+#p2 {
+    background: lightblue;
+left: 20px;
+    top: 20px;
+    z-index: 3;
+}
+#p3 {
+    background: lightcoral;
+    top: 40px;
+    left: 40px;
+    z-index: 2;
+}
+#p4 {
+    background: lightseagreen;
+    top: 60px;
+    left: 60px;
+    z-index: 1;
+}
